@@ -1,0 +1,97 @@
+.blog-card {
+	position: relative;
+
+	.img {
+		border-radius: 12px;
+		border: 1px dashed #e0e0e0;
+		padding: 10px;
+		display: flex;
+		img {
+			width: 100%;
+			transition: all 0.3s ease;
+			border-radius: 8px;
+		}
+		margin-bottom: rem(32);
+	}
+
+	.content {
+		margin-bottom: rem(32);
+
+		.title {
+			color: #212121;
+			font-family: Inter;
+			font-size: 24px;
+			font-weight: 700;
+			max-width: 354px;
+			margin-bottom: 16px;
+			display: block;
+		}
+		.text {
+			color: #757575;
+			font-size: 16px;
+			font-weight: 400;
+			text-transform: lowercase;
+		}
+	}
+
+	.action {
+		.link {
+			display: inline-flex;
+			align-items: center;
+			gap: rem(5);
+			transition: all 0.3s ease;
+			color: var(--text-secondary);
+			font-size: rem(16);
+			text-transform: capitalize;
+			position: relative;
+
+			&::after {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: rem(-12);
+				transform: translateY(-50%);
+				border-radius: rem(18);
+				background: rgba(198, 208, 255, 0.5);
+				transition: width 0.3s ease;
+				width: rem(35);
+				height: rem(35);
+				flex-shrink: 0;
+				z-index: 1;
+			}
+
+			&:hover {
+				&::after {
+					width: rem(115);
+				}
+			}
+		}
+	}
+}
+
+.date-box {
+	border-radius: 12px;
+	border: 3px solid #fff;
+	background: var(--black);
+	width: 72px;
+	height: 72px;
+	flex-shrink: 0;
+	position: absolute;
+
+	top: 26px;
+	right: 26px;
+
+	.date {
+		color: #fff;
+		text-align: center;
+		font-size: 32px;
+		font-weight: 500;
+	}
+	.time {
+		color: #fff;
+		text-align: center;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}

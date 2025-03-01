@@ -1,0 +1,84 @@
+.u-testimonial-card {
+	border-radius: 22px;
+	border: 1px solid #ebebeb;
+	background: #fff;
+	padding: 40px 28px;
+	position: relative;
+
+	&::after {
+		display: inline-block;
+		position: absolute;
+		top: 43px;
+		right: 31px;
+		width: 16px;
+		height: 16px;
+		vertical-align: -0.125em;
+		content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M10.8 17.52a6.72 6.72 0 0 1 6.72-6.72H24L10.8 24ZM0 13.2L13.2 0v6.48a6.72 6.72 0 0 1-6.72 6.72z'/%3E%3C/svg%3E");
+		z-index: 2;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 40px;
+		right: 28px;
+		width: 23px;
+		height: 23px;
+		background: #000;
+		z-index: 1;
+		border-radius: 50%;
+	}
+	.content {
+		margin-bottom: rem(20);
+		display: flex;
+		align-items: center;
+		gap: rem(15);
+
+		.img {
+			img {
+				border-radius: 47px;
+				width: 47px;
+				height: 47px;
+				flex-shrink: 0;
+			}
+		}
+
+		.info {
+			.name {
+				color: #000;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 140%;
+			}
+
+			.position {
+				color: #757575;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 140%;
+			}
+		}
+	}
+
+	.desc {
+		color: #000;
+		font-size: rem(14);
+		font-weight: 400;
+		line-height: 140%;
+	}
+}
+
+.mySwiperTestUserReverse {
+	padding: 10px 0;
+	.swiper-slide {
+		border-radius: 22px;
+		box-shadow: none !important;
+	}
+}
+.mySwiperTestUser {
+	padding: 10px 0;
+	.swiper-slide {
+		border-radius: 22px;
+		box-shadow: none !important;
+	}
+}

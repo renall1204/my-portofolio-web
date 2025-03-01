@@ -1,0 +1,1069 @@
+<!-- template top-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Title -->
+		<title>Vicky</title>
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/images/logo/fav.png" />
+		<!-- Apple touch icon -->
+		<link rel="apple-touch-icon" href="assets/images/logo/fav.png" />
+		<!-- swiper -->
+		<link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="assets/css/animate.min.css" />
+		<link rel="stylesheet" href="assets/css/splitting.css" />
+		<link rel="stylesheet" href="assets/css/odometer.css" />
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!-- Main css -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+
+		
+		<!-- icon  -->
+		<script src="assets/js/iconify-icon.min.js"></script>
+	</head>
+
+	<body>
+		<!--==================== Preloader Start ====================-->
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<span class="loader"></span>
+				</div>
+			</div>
+		</div>
+		<span class="banner-svg-line"></span>
+
+		<!--==================== Preloader End ====================-->
+	</body>
+</html>
+
+
+<!-- header -->
+<header class="header" id="header">
+	<div class="container">
+		<div class="header-wrap">
+			<!-- logo  -->
+			<div class="logo">
+				<a href="index.html">
+					<img src="assets/images/logo/logo-renstudio.PNG" alt="logo" />
+				</a>
+			</div>
+
+			<!-- menu  -->
+			<div class="menu">
+				<ul>
+					<li><a href="#banner">Home</a></li>
+					<li><a href="#recent-project">Work</a></li>
+					<li><a href="#service">Service</a></li>
+					<li><a href="#review">Review</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+
+			<!-- action  -->
+			<div class="action">
+				<a href="#contact" class="btn--primary fw--600">Let’s talk</a>
+				<button
+					class="mobile-menu btn--outline"
+					type="button"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#mobile-canvas"
+					aria-controls="mobile-canvas"
+				>
+					<iconify-icon icon="hugeicons:menu-square"></iconify-icon>
+				</button>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobile-canvas">
+	<div class="offcanvas-header">
+		<div class="logo">
+			<a href="index.html">
+				<img src="assets/images/logo/logo-renstudio.PNG" alt="logo" />
+			</a>
+		</div>
+		<button
+			type="button"
+			class="btn-close"
+			data-bs-dismiss="offcanvas"
+			aria-label="Close"
+		></button>
+	</div>
+	<div class="offcanvas-body">
+		<ul class="mobile-menu-list">
+			<li><a href="#header">Home</a></li>
+			<li><a href="#recent-project">Work</a></li>
+			<li><a href="#service">Service</a></li>
+			<li><a href="#review">Review</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+</div>
+
+
+<!-- banner -->
+<section id="banner">
+	<span class="circle-animate"></span>
+	<span class="start-svg one"></span>
+	<span class="start-svg two"></span>
+	<span class="square-shape one"></span>
+	<span class="circle-animate two"></span>
+	<p class="banner-promo one wow animate__animated animate__fadeInDown">
+		Design & Develop Websites
+	</p>
+	<p class="banner-promo two wow animate__animated animate__fadeInDown">
+		Design UI/UX based on your needs
+	</p>
+	<p class="banner-promo three wow animate__animated animate__fadeInDown">
+		<!-- Bringing new way on digital marketing solutions! -->
+	</p>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="671"
+		height="239"
+		viewBox="0 0 671 239"
+		fill="none"
+		class="animated-svg"
+	>
+		<defs>
+			<!-- Define a mask to create the left-to-right effect -->
+			<mask id="leftToRightMask">
+				<!-- A white rectangle that moves across the SVG to reveal the fill -->
+				<rect
+					x="0"
+					y="0"
+					width="0"
+					height="100%"
+					fill="white"
+					class="mask-rect"
+				/>
+			</mask>
+		</defs>
+
+		<!-- Apply the mask to the path -->
+		<path
+			fill-rule="evenodd"
+			clip-rule="evenodd"
+			d="M681 94.9644V84.6368C669.656 81.5592 658.109 79.1172 646.378 77.3616C602.178 70.7616 556.678 73.0616 513.478 84.8616C470.278 96.6616 429.278 119.462 390.578 143.262C385.515 146.373 380.397 149.546 375.227 152.753C304.111 196.858 223.002 247.162 136.678 225.162C98.278 215.362 63.178 191.662 40.278 159.262C15.678 124.462 5.47803 80.2616 11.578 38.1616C15.6464 10.0828 16.1118 10.2061 16.9792 10.4359C17.4123 10.5507 17.9457 10.692 19.078 7.36155C20.8528 2.14176 18.704 0.000788756 15.9598 2.17905e-07C15.9587 -7.26428e-08 15.9577 -7.26274e-08 15.9567 2.17905e-07C13.4442 0.000722018 10.4337 1.79459 9.478 4.66155C-4.52201 45.6616 -2.92199 91.4616 13.678 131.462C29.278 168.962 58.178 200.062 93.978 219.162C114.744 230.241 138.908 236.912 163.797 239H197.815C204.59 238.431 211.328 237.519 217.978 236.262C264.678 227.462 307.678 205.362 348.078 181.162C358.111 175.126 368.069 168.933 378.03 162.738C407.682 144.296 437.365 125.833 469.178 111.462C511.678 92.2616 558.178 82.6616 604.978 83.7616C630.875 84.3702 656.374 88.1328 681 94.9644Z"
+			fill="#1282EC"
+			fill-opacity="0.1"
+			mask="url(#leftToRightMask)"
+		/>
+	</svg>
+
+	<div class="years-of-experience">
+		<p class="stars wow animate__animated animate__fadeInUp">
+			<span class="wow animate__animated animate__fadeInLeft"
+				><iconify-icon icon="mingcute:star-fill"></iconify-icon
+			></span>
+			<span class="wow animate__animated animate__fadeInLeft"
+				><iconify-icon icon="mingcute:star-fill"></iconify-icon
+			></span>
+			<span class="wow animate__animated animate__fadeInLeft"
+				><iconify-icon icon="mingcute:star-fill"></iconify-icon
+			></span>
+			<span class="wow animate__animated animate__fadeInLeft"
+				><iconify-icon icon="mingcute:star-fill"></iconify-icon
+			></span>
+			<span class="wow animate__animated animate__fadeInLeft"
+				><iconify-icon icon="mingcute:star-fill"></iconify-icon
+			></span>
+		</p>
+		<h3 class="years wow animate__animated animate__fadeInUp">1.5 Years</h3>
+		<p class="years-text wow animate__animated animate__fadeInUp">Experience</p>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1
+					class="banner-title text-center wow animate__animated animate__fadeInUp"
+				>
+				From Concept to Code, I Build the Digital World
+				</h1>
+			</div>
+
+			<div class="col-12">
+				<div class="banner-image wow animate__animated animate__zoomIn">
+					<img
+						data-wow-delay="0.1s"
+						class="wow animate__animated animate__fadeInUp"
+						src="assets/images/logo/7fd6a598-ccc0-4e8b-93ff-48828d0016f6.png"
+						alt=""
+					/>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- slider -->
+<!-- <section class="slider-company">
+	<div class="container">
+		<div class="swiper mySwiperSliderCompany">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="assets/images/company/1.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/2.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/3.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/4.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/5.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/3.png" alt="..." />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="swiper mySwiperSliderCompanyReverse">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="assets/images/company/6.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/7.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/8.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/9.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/10.png" alt="..." />
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/company/1.png" alt="..." />
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
+
+
+<!-- recent project -->
+<section id="recent-project" class="pt--100">
+	<div class="container">
+		<div
+			class="row justify-content-center mb-5 wow animate__animated animate__fadeInUp"
+		>
+			<div class="col-md-8">
+				<div class="section-header">
+					<h1 class="section-title">Recent Project</h1>
+					<p class="section-subtitle" data-wow-delay="0.1s">
+						Here's several website, microsite, and other various projects that i've successfully built.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center gy-4">
+			<div class="col-12 project-list section2 mb-4">
+				<div class="product-card hover-3d">
+					<div class="img wow animate__animated animate__fadeInUp mb-3">
+						<img class="rounded-4" src="assets/images/project/project1.PNG" alt="" />
+					</div>
+					<div
+						class="d-flex justify-content-between align-items-center wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.1s"
+					>
+						<div class="left">
+							<p class="title">OCBC #KartuWajibLiburan</p>
+							<p class="text">
+								A microsite that specialized for OCBC recent campaign <b>#KartuWajibLiburan</b>.
+							</p>
+						</div>
+						<div class="right">
+							<a href="https://www.ocbc.id/program/program-ocbc-nisp/kartu-wajib-liburan" target="_blank" class="btn--outline align-items-center">
+								<span>View Project</span>
+								<span class="d-inline-flex">
+									<iconify-icon icon="cil:arrow-right"></iconify-icon>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 project-list section2 mb-4">
+				<div class="product-card hover-3d">
+					<div class="img wow animate__animated animate__fadeInLeft mb-3">
+						<img class="rounded-4" src="assets/images/project/project3.PNG" alt="" />
+					</div>
+					<div
+						class="d-flex justify-content-between align-items-center wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.1s"
+					>
+						<div class="left">
+							<p class="title">Commonwealth - OCBC Merging Microsite</p>
+							<p class="text">
+								A microsite that specialized to contains informations regarding the merger of OCBC Bank & Commonwealth Bank.
+							</p>
+						</div>
+						<div class="right">
+							<a href="https://www.ocbc.id/id/strongertogether" target="_blank" class="btn--outline align-items-center">
+								<span>View Project</span>
+								<span class="d-inline-flex">
+									<iconify-icon icon="cil:arrow-right"></iconify-icon>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 project-list section2 mb-4">
+				<div class="product-card hover-3d">
+					<div class="img wow animate__animated animate__fadeInRight mb-3">
+						<img class="rounded-4" src="assets/images/project/project4.PNG" alt="" />
+					</div>
+					<div
+						class="d-flex justify-content-between align-items-center wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.1s"
+					>
+						<div class="left">
+							<p class="title">Metaverse Digital City</p>
+							<p class="text">
+								VR 360 Project that developed using Unity Engine and Oculus Quest 2.
+							</p>
+						</div>
+						<div class="right">
+							<a href="https://metaverse.digitalcity.id/" target="_blank" class="btn--outline align-items-center">
+								<span>View Project</span>
+								<span class="d-inline-flex">
+									<iconify-icon icon="cil:arrow-right"></iconify-icon>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 project-list section2 mb-4">
+				<div class="product-card hover-3d">
+					<div class="img wow animate__animated animate__fadeInUp mb-3">
+						<img class="rounded-4" src="assets/images/project/project2.PNG" alt="" />
+					</div>
+					<div
+						class="d-flex justify-content-between align-items-center wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.1s"
+					>
+						<div class="left">
+							<p class="title">OCBC Young Nyala Campaign</p>
+							<p class="text">
+								A microsite that specialized for OCBC recent campaign <b>Young Nyala</b>.
+							</p>
+						</div>
+						<div class="right">
+							<a href="#contact" class="btn--outline align-items-center">
+								<span>View Project</span>
+								<span class="d-inline-flex">
+									<iconify-icon icon="cil:arrow-right"></iconify-icon>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- services -->
+<section class="py--100" id="service">
+	<div class="container">
+		<div class="row mb-4 wow animate__animated animate__fadeInUp">
+			<div class="col-md-8">
+				<div class="section-header text-start">
+					<h1 class="section-title text-start">
+						My <span class="marked">Service</span>
+					</h1>
+					<p class="section-subtitle text-start">
+						Whether you're looking to create a stunning website or an immersive game, I bring your vision to life with powerful coding, engaging designs, and cutting-edge development techniques.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row gy-3">
+			<div class="col-md-6 wow animate__animated animate__fadeInUp">
+				<div class="service-wrap">
+					<div class="service-icon">
+						<iconify-icon
+							class="icon"
+							icon="material-symbols:bottom-sheets"
+						></iconify-icon>
+					</div>
+					<div class="service-content">
+						<h3 class="title">Web & Game Design Development</h3>
+						<p class="desc">
+							Through my experience, i've successfully created several microsites with excellent quality and also i've gain deep insights into user needs and behaviors through interviews, surveys, usability testing. 
+						</p>
+					</div>
+
+					<div class="service-action">
+						<a class="link" href="#recent-project">
+							<span>View</span>
+							<iconify-icon
+								class="icon"
+								icon="lsicon:double-arrow-right-filled"
+							></iconify-icon>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="col-md-6 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.1s"
+			>
+				<div class="service-wrap">
+					<div class="service-icon">
+						<iconify-icon
+							class="icon"
+							icon="material-symbols:account-tree"
+						></iconify-icon>
+					</div>
+					<div class="service-content">
+						<h3 class="title">Wireframing &amp; prototyping</h3>
+						<p class="desc">
+							Most of my website is designed by myself through deep insights that i've gained over my experience as Web & Game Developer. I can help you to make a wireframe & prototype of the projects based on your needs. 
+						</p>
+					</div>
+
+					<div class="service-action">
+						<a class="link" href="#recent-project">
+							<span>View</span>
+							<iconify-icon
+								class="icon"
+								icon="lsicon:double-arrow-right-filled"
+							></iconify-icon>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- faq -->
+<!-- <section id="people-testimonial" class="pb--100"> -->
+	<!-- <div class="container">
+		<div
+			class="row justify-content-center mb--50 wow animate__animated animate__fadeInUp"
+		>
+			<div class="col-lg-8">
+				<div class="section-header">
+					<h1 class="section-title">What people are saying</h1>
+					<p class="section-subtitle">
+						The words on the streets (coming soon).
+					</p>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- <div class="swiper mySwiperTestUser">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/1.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Alice Johnson</p>
+							<p class="position">Product Designer</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Landify is a game-changer for design teams. The level of
+							customization is incredible!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/2.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Michael Smith</p>
+							<p class="position">Marketing Specialist</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Using Landify has significantly improved our workflow. It’s so
+							efficient and intuitive!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/3.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Sarah Lee</p>
+							<p class="position">Creative Director</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Our team loves Landify! It simplifies complex processes and helps
+							us focus on creativity.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/4.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">David Brown</p>
+							<p class="position">Software Engineer</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Landify’s tools are perfect for both beginners and professionals.
+							It’s a must-have!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/5.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Emily Davis</p>
+							<p class="position">Freelance Writer</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Landify provides the perfect balance of functionality and ease of
+							use. Highly recommended!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/1.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Chris Taylor</p>
+							<p class="position">UX Researcher</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							I’ve never seen anything like Landify before. It’s truly
+							innovative and user-focused.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- <div class="swiper mySwiperTestUserReverse">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/6.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Jane Smith</p>
+							<p class="position">Product Manager</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Landify is a game-changer. The ease of use and flexibility in
+							Figma make it my go-to tool!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/7.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Emily Johnson</p>
+							<p class="position">Designer</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Landify's features are a perfect blend of innovation and
+							practicality. Love it!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/8.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Michael Brown</p>
+							<p class="position">Developer</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Working with Landify is like having a creative assistant. I can't
+							recommend it enough.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/9.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Sarah Taylor</p>
+							<p class="position">Marketing Head</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							I've achieved so much more with Landify. It's a must-have for
+							marketers everywhere.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/1.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Daniel Harris</p>
+							<p class="position">CEO</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							With Landify, my team's workflow has become seamless. It's an
+							incredible tool!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="u-testimonial-card">
+					<div class="content">
+						<div class="img">
+							<img src="assets/images/testimonial/2.png" alt="" />
+						</div>
+						<div class="info">
+							<p class="name">Olivia Wilson</p>
+							<p class="position">Creative Director</p>
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Landify helped us bring our vision to life effortlessly. A
+							revolutionary tool indeed!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+<!-- </section> -->
+
+
+<!-- blog -->
+<section id="review" class="py--100 bg--primary-light">
+	<div class="container">
+		<div
+			class="row gy-4 mb--50 justify-content-between align-items-end wow animate__animated animate__fadeIn"
+		>
+			<div class="col-md-6 left">
+				<div class="section-header">
+					<h1 class="section-title text-start">What people are saying (COMING SOON)</h1>
+					<p class="section-subtitle text-start">
+						The words on the streets.
+					</p>
+				</div>
+			</div>
+			<!-- <div class="col-md-6 right d-flex justify-content-md-end">
+				<a href="#" class="btn--outline align-items-center">
+					<span>View All</span>
+					<span class="d-inline-flex">
+						<iconify-icon icon="cil:arrow-right"></iconify-icon>
+					</span>
+				</a>
+			</div> -->
+		</div>
+
+		<!-- <div class="row gy-4">
+			<div
+				class="col-md-6 col-lg-4 wow animate__animated animate__fadeIn"
+				data-wow-delay="0.1s"
+			>
+				<div class="blog-card">
+					<div class="date-box">
+						<p class="date">25</p>
+						<p class="time">May</p>
+					</div>
+					<a href="#" class="img">
+						<img src="assets/images/blog/1.png" alt="" />
+					</a>
+					<div class="content">
+						<a href="#" class="title">Digital Product Design Solution</a>
+						<p class="text">
+							With user-centered approach, the goals was to create. he goals was
+							to create .
+						</p>
+					</div>
+
+					<div class="action">
+						<a href="#" class="link align-items-center">
+							<span>Read More</span>
+							<span class="d-inline-flex">
+								<iconify-icon
+									icon="lsicon:double-arrow-right-filled"
+								></iconify-icon>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="col-md-6 col-lg-4 wow animate__animated animate__fadeIn"
+				data-wow-delay="0.2s"
+			>
+				<div class="blog-card">
+					<div class="date-box">
+						<p class="date">25</p>
+						<p class="time">May</p>
+					</div>
+					<a href="#" class="img">
+						<img src="assets/images/blog/1.png" alt="" />
+					</a>
+					<div class="content">
+						<a href="#" class="title">Digital Product Design Solution</a>
+						<p class="text">
+							With user-centered approach, the goals was to create. he goals was
+							to create .
+						</p>
+					</div>
+
+					<div class="action">
+						<a href="#" class="link align-items-center">
+							<span>Read More</span>
+							<span class="d-inline-flex">
+								<iconify-icon
+									icon="lsicon:double-arrow-right-filled"
+								></iconify-icon>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="col-md-6 col-lg-4 wow animate__animated animate__fadeIn"
+				data-wow-delay="0.3s"
+			>
+				<div class="blog-card">
+					<div class="date-box">
+						<p class="date">25</p>
+						<p class="time">May</p>
+					</div>
+					<a href="#" class="img">
+						<img src="assets/images/blog/1.png" alt="" />
+					</a>
+					<div class="content">
+						<a href="#" class="title">Digital Product Design Solution</a>
+						<p class="text">
+							With user-centered approach, the goals was to create. he goals was
+							to create .
+						</p>
+					</div>
+
+					<div class="action">
+						<a href="#" class="link align-items-center">
+							<span>Read More</span>
+							<span class="d-inline-flex">
+								<iconify-icon
+									icon="lsicon:double-arrow-right-filled"
+								></iconify-icon>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</div>
+</section>
+
+
+<!-- contact  -->
+<section id="contact" class="py--100">
+	<div class="container">
+		<div class="row gy-4 wow animate__animated animate__fadeInUp">
+			<div class="col-md-6">
+				<div class="section-header mb-5">
+					<h1 class="section-title text-start">What the dev are saying</h1>
+					<p class="section-subtitle text-start">
+						I understand making a unique and eye-catching while maintaining the important aspects of a website or game projects can be a head-ache. But through my experience, i assure you i can help you maximize the idea and deliver you the products as exactly as you need or beyond.
+					</p>
+				</div>
+
+				<div class="my-image wow animate__animated animate__fadeInUp">
+					<img
+						class="img-fluid rounded-4"
+						src="assets/images/my-image/young-man-working-home-with-laptop-freelance-concept.jpg"
+						alt=""
+					/>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<form action="mailto:renaldyarig@gmail.com" method="POST" enctype="text/plain" class="row contact-form gy-4">
+					<div class="col-12 wow animate__animated animate__fadeInUp">
+						<h1>Contact me!</h1>
+					</div>
+					<div
+						class="col-sm-6 wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.1s"
+					>
+						<div class="form-item">
+							<iconify-icon
+								class="icon"
+								icon="mdi:person-circle-outline"
+							></iconify-icon>
+							<input type="text" class="form-control" placeholder="Full name" />
+						</div>
+					</div>
+					<div
+						class="col-sm-6 wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.2s"
+					>
+						<div class="form-item">
+							<iconify-icon class="icon" icon="ic:outline-email"></iconify-icon>
+							<input type="text" class="form-control" placeholder="Email" />
+						</div>
+					</div>
+					<div
+						class="col-sm-6 wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.3s"
+					>
+						<div class="form-item">
+							<iconify-icon
+								class="icon"
+								icon="solar:phone-linear"
+							></iconify-icon>
+							<input type="text" class="form-control" placeholder="Phone" />
+						</div>
+					</div>
+					<div
+						class="col-sm-6 wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.4s"
+					>
+						<div class="form-item">
+							<iconify-icon
+								class="icon"
+								icon="mdi:service-toolbox"
+							></iconify-icon>
+							<input type="text" class="form-control" placeholder="Service " />
+						</div>
+					</div>
+					<div
+						class="col-12 wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.5s"
+					>
+						<div class="form-item align-items-start">
+							<iconify-icon
+								class="icon mt-2"
+								icon="lineicons:message-2"
+							></iconify-icon>
+							<textarea
+								placeholder="Message"
+								name="message"
+								class="form-control"
+								id=""
+								rows="6"
+							></textarea>
+						</div>
+					</div>
+
+					<div
+						class="col-12 text-center wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.6s"
+					>
+						<button
+							type="submit"
+							class="btn--primary justify-content-center rounded-0 w-100 text-center"
+						>
+							Submit
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- footer -->
+<footer id="footer">
+	<div class="container-fluid">
+		<div class="row gy-4">
+			<div class="col-md-3">
+				<div class="footer-side-1">
+					<div class="content-area">
+						<p class="text">
+							Whether it's building dynamic, responsive websites or developing exciting games, I bring your ideas to life with cutting-edge technology and creativity.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-4 col-md-3">
+				<div class="footer-side-2 mb-5">
+					<div class="title-box">
+						<h4 class="title">My Service</h4>
+					</div>
+					<div class="content-area">
+						<ul class="footer-link">
+							<li><a class="active" href="#about-me">Website Design & Development</a></li>
+							<li><a href="#service">Game Development</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-8 col-md-3">
+				<div class="footer-side-2 mb-5">
+					<div class="title-box">
+						<h4 class="title">Check Me!</h4>
+					</div>
+					<div class="content-area">
+						<ul class="footer-link">
+							<li><a class="active" href="#recent-project">Recent Projects</a></li>
+							<li><a href="#testimonials">Testimonials</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="footer-side-4">
+					<div class="title-box mb-4">
+						<h4 class="title">Contact</h4>
+						<p class="subtext">
+							Feel free to reach out if you want to collaborate with us, or
+							simply chat.
+						</p>
+					</div>
+					<div class="content-area">
+						<form action="">
+							<div class="email-subscribe">
+								<input type="email" placeholder="Enter your mail" />
+								<button type="submit">
+									<iconify-icon icon="solar:arrow-right-outline"></iconify-icon>
+								</button>
+							</div>
+						</form>
+						<ul class="footer-social">
+							<li>
+								<a href="https://www.google.com">
+									<iconify-icon icon="mdi:google"></iconify-icon
+								></a>
+							</li>
+							<li>
+								<a href="https://www.slack.com">
+									<iconify-icon icon="mdi:slack"></iconify-icon>
+								</a>
+							</li>
+							<li>
+								<a href="https:www.facebook.com">
+									<iconify-icon icon="mdi:facebook"></iconify-icon>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.apple.com">
+									<iconify-icon
+										icon="mdi:apple"
+										width="24"
+										height="24"
+									></iconify-icon>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12">
+				<p class="copyright">Copyright © creative-hunk | All Right Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- template bottom -->
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap Js -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- swiper Js -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/splitting.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/jquery.appear.min.js"></script>
+
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/scroll-trigger.min.js"></script>
+<script src="assets/js/scroll-to-plugin.min.js"></script>
+<!-- main js -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
